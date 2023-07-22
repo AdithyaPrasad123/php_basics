@@ -1,0 +1,18 @@
+<table class="table">
+                <thead>
+                     <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Mobile</th>
+                        <th scope="col">Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                                <td><?php echo $row['name']; ?></td>
+                                <td><?php echo $row['email']; ?></td>
+                                <td><?php echo $row['mobile']; ?></td>
+                                <td><?php echo $row['address']; ?></td>
+                        </tr>
+                        </tbody>
+                    </table>
